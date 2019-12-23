@@ -253,7 +253,7 @@ export class Range implements ComponentInterface {
       Math.abs(this.ratioA - ratio) < Math.abs(this.ratioB - ratio)
         ? 'A'
         : 'B';
-
+    console.log('on start event');
     this.setFocus(this.pressedKnob);
 
     // update the active knob's position
